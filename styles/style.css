@@ -46,3 +46,34 @@ body {
 	display: flex;
 	flex: 1;
 }
+.bold{
+    font-weight: bold;
+}
+.header{
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.2rem 1rem;
+    box-shadow: 0px 2px 5px 1px gray;
+
+}
+.header i{
+   color: var(--gray);
+}
+.orange-text{
+    color: var(--orange);
+}
+.logo{
+    align-items: center;
+}
+.q-text{
+    font-size: 3rem;
+
+}
+.logo-text{
+    font-size: 1.2rem;
+}
+.dot{
+    padding: 0.2rem;
+    background-color: var(--orange);
+    border-radius: 50%;
+}
