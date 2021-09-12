@@ -53,7 +53,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 0.2rem 1rem;
-    box-shadow: 0px 2px 5px 1px gray;
+    box-shadow: 0px 2px 20px -1px gray;
 
 }
 .header i{
@@ -76,4 +76,25 @@ body {
     padding: 0.2rem;
     background-color: var(--orange);
     border-radius: 50%;
+}
+.sub-header{
+    align-items: center;
+    gap: 2rem;
+    padding: 0.2rem 1rem;
+}
+.sub-header-text{
+    font-size: small;
+}
+.sub-header-text span{
+    text-decoration: underline;
+}
+.euro, .middle-x{
+    font-size: 3.5rem;
+    font-weight: lighter;
+}
+.sub-text{
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 0.8;
+    padding: 0.8rem 0;
 }
