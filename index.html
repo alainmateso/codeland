@@ -8,20 +8,9 @@
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
 </head>
-<body>
     <header>
         <div class="row header bg-white">
             <div class="row gap-2">
-                <!-- <div class="q-text bold orange-text">Q</div>
-                <div class="logo-text col">
-                    <div class="bold">PREMIUM</div>
-                    <div class="dots row gap-2">
-                        <div class="dot"></div>
-                        <div class="dot"></div>
-                        <div class="dot"></div>
-                        <div class="dot"></div>
-                    </div>
-                </div> -->
                 <div class="logo">
                     <img src="./assets//images/logo.PNG" alt="">
                 </div>
@@ -44,41 +33,40 @@
             I costi chilometrici relativi alle auto provate dal 2016 ad oggi. <span class="orange-text bold">Più info</span>
         </div>
     </div>
-    <section class="col gap-2 middle-section bg-light-gray">
-        <div class="col">
-            <div class="text-center uppercase small-padding">
+    <body>
+        <section class="col gap-2 middle-section bg-light-gray">
+            <div class="col text-center uppercase small-padding">
                 <p>Costi calcolati</p>
                 <p>su queste percentuali di utilizzo</p>
             </div>
-        </div>
-        <div class="top-cards row gap-2">
-            <div class="col top-card flex-1 bg-white rounded-small first">
-                <div class="bold text-yellow">33<sup>%</sup></div>
-                <span class="">CITTA</span>
+            <div class="top-cards row gap-2">
+                <div class="col top-card flex-1 bg-white rounded-small first">
+                    <div class="bold text-yellow">33<sup>%</sup></div>
+                    <span class="uppercase">Città</span>
+                </div>
+                <div class="col top-card flex-1 bg-white rounded-small second">
+                    <div class="bold text-light-blue">33<sup>%</sup></div>
+                    <span class="uppercase">Statale</span>
+                </div>
+                <div class="col top-card flex-1 bg-white rounded-small third">
+                    <div class="bold text-green">33<sup>%</sup></div>
+                    <span class="uppercase">Autostrada</span>
+                </div>
             </div>
-            <div class="col top-card flex-1 bg-white rounded-small second">
-                <div class="bold text-light-blue">33<sup>%</sup></div>
-                <span class="">STATALE</span>
+            <div class="row margin">
+                <div class="color-bar flex-1 bg-yellow small-padding"></div>
+                <div class="color-bar flex-1 bg-light-blue small-padding"></div>
+                <div class="color-bar flex-1 bg-green small-padding"></div>
             </div>
-            <div class="col top-card flex-1 bg-white rounded-small third">
-                <div class="bold text-green">33<sup>%</sup></div>
-                <span class="">AUSTROSTRADA</span>
+            <div class="text-banner orange-text bold text-center bg-white small-padding rounded-small">
+                Cambia percentuali
             </div>
-        </div>
-        <div class="row">
-            <div class="color-bar flex-1 bg-yellow small-padding"></div>
-            <div class="color-bar flex-1 bg-light-blue small-padding"></div>
-            <div class="color-bar flex-1 bg-green small-padding"></div>
-        </div>
-        <div class="text-banner orange-text bold text-center bg-white small-padding rounded-small">
-            Cambia percentuali
-        </div>
-    </section>
-    <section class="col cars-section bg-white gap-4">
+        </section>
+        <section class="col cars-section bg-white gap-4">
             <div class="info-row row">
                 <div class="row gap-2">
                     <div class="icon-holder bg-light-gray">
-                   <i class="fas fa-external-link-alt text-gray"></i>
+                    <i class="fas fa-external-link-alt text-gray"></i>
                     </div>
                 <div class="col">
                     <p class="text-gray">Info</p>
@@ -91,188 +79,214 @@
                     </select>
                 </div>
             </div>
-        <div class="separator"></div>
-        <div class="car-card col gap-4">
-            <div class="car-image flex-1">
-                <img src="./assets/images/car.PNG" alt="" class="w-full">
-            </div>
-            <div class="car-name"><span class="bold">VOLKSWAGEN ECO UP!</span> move 5p.</div>
-            <div class="car-details row gap-4">
-                <div class="col text-gray flex-1">
-                    <p>Tipo: <span class="bold">Berlina</span></p>
-                    <p>Potenza: <span class="bold">150</span>CV | <span class="bold">150</span>kW</p>
-                    <p>Cilindrata: <span class="bold">1395 </span>cm<sup>3</sup></p>
+            <div class="separator"></div>
+            <div class="car-card col gap-4">
+                <div class="car-image flex-1">
+                    <img src="./assets/images/car.PNG" alt="" class="w-full">
                 </div>
-                <div class="car-button col uppercase bold border-blue">
-                    <div class="text-blue">GPL</div>
+                <div class="car-name"><span class="bold">VOLKSWAGEN ECO UP!</span> move 5p.</div>
+                <div class="car-details row gap-4">
+                    <div class="col text-gray flex-1">
+                        <p>Tipo: <span class="bold">Berlina</span></p>
+                        <p>Potenza: <span class="bold">150</span>CV | <span class="bold">110</span>kW</p>
+                        <p>Cilindrata: <span class="bold">1395 </span>cm<sup>3</sup></p>
+                    </div>
+                    <div class="car-button col uppercase bold border-blue">
+                        <div class="text-blue uppercase">GPL</div>
+                    </div>
                 </div>
-            </div>
-            <div class="car-miles row gap-2">
-                <div class="car-miles-number text-blue bold">3,85</div>
-                <div>€x100km per le tue abitudini</div>
-                <div><i class="fas fa-info-circle text-gray"></i></div>
-            </div>
-            <div class="car-bars row">
-                <div class="car-bar bg-blue flex-1"></div>
-                <div class="car-bar bg-light-gray flex-1"></div>
-                <div class="car-bar bg-light-gray flex-1"></div>
-                <div class="car-bar bg-light-gray flex-1"></div>
-                <div class="car-bar bg-light-gray flex-1"></div>
-                <div class="car-bar bg-light-gray flex-1"></div>
-            </div>
-        </div>
-        <div class="separator"></div>
-        <div class="car-card col gap-4">
-            <div class="car-image flex-1">
-                <img src="./assets/images/car.PNG" alt="" class="w-full">
-            </div>
-            <div class="car-name"><span class="bold">VOLKSWAGEN ECO UP!</span> move 5p.</div>
-            <div class="car-details row gap-4">
-                <div class="col text-gray flex-1">
-                    <p>Tipo: <span class="bold">Berlina</span></p>
-                    <p>Potenza: <span class="bold">150</span>CV | <span class="bold">150</span>kW</p>
-                    <p>Cilindrata: <span class="bold">1395 </span>cm<sup>3</sup></p>
+                <div class="car-miles row gap-2">
+                    <div class="car-miles-number text-blue bold">3,85</div>
+                    <div>€x100km per le tue abitudini</div>
+                    <div><i class="fas fa-info-circle text-gray"></i></div>
                 </div>
-                <div class="car-button col uppercase bold border-blue">
-                    <div class="text-blue">GPL</div>
+                <div class="car-bars row">
+                    <div class="car-bar bg-blue flex-1"></div>
+                    <div class="car-bar bg-light-gray flex-1"></div>
+                    <div class="car-bar bg-light-gray flex-1"></div>
+                    <div class="car-bar bg-light-gray flex-1"></div>
+                    <div class="car-bar bg-light-gray flex-1"></div>
+                    <div class="car-bar bg-light-gray flex-1"></div>
                 </div>
             </div>
-            <div class="car-miles row gap-2">
-                <div class="car-miles-number text-blue bold">3,85</div>
-                <div>€x100km per le tue abitudini</div>
-                <div><i class="fas fa-info-circle text-gray"></i></div>
-            </div>
-            <div class="car-bars row">
-                <div class="car-bar bg-blue flex-1"></div>
-                <div class="car-bar bg-light-gray flex-1"></div>
-                <div class="car-bar bg-light-gray flex-1"></div>
-                <div class="car-bar bg-light-gray flex-1"></div>
-                <div class="car-bar bg-light-gray flex-1"></div>
-                <div class="car-bar bg-light-gray flex-1"></div>
-            </div>
-        </div>
-        <div class="separator"></div>
-        <div class="car-card col gap-4">
-            <div class="car-image flex-1">
-                <img src="./assets/images/car.PNG" alt="" class="w-full">
-            </div>
-            <div class="car-name"><span class="bold">VOLKSWAGEN ECO UP!</span> move 5p.</div>
-            <div class="car-details row gap-4">
-                <div class="col text-gray flex-1">
-                    <p>Tipo: <span class="bold">Berlina</span></p>
-                    <p>Potenza: <span class="bold">150</span>CV | <span class="bold">150</span>kW</p>
-                    <p>Cilindrata: <span class="bold">1395 </span>cm<sup>3</sup></p>
+            <div class="separator"></div>
+            <div class="car-card col gap-4">
+                <div class="car-image flex-1">
+                    <img src="./assets/images/car2.PNG" alt="" class="w-full">
                 </div>
-                <div class="car-button col uppercase bold border-blue">
-                    <div class="text-blue">GPL</div>
+                <div class="car-name"><span class="bold">FORD FIESTA </span>1.1 75 CV Gpl 5p.</div>
+                <div class="car-details row gap-4">
+                    <div class="col text-gray flex-1">
+                        <p>Tipo: <span class="bold">Berlina</span></p>
+                        <p>Potenza: <span class="bold">150</span>CV | <span class="bold">110</span>kW</p>
+                        <p>Cilindrata: <span class="bold">1395 </span>cm<sup>3</sup></p>
+                    </div>
+                    <div class="car-button col uppercase bold border-blue">
+                        <div class="text-blue uppercase">GPL</div>
+                    </div>
                 </div>
-            </div>
-            <div class="car-miles row gap-2">
-                <div class="car-miles-number text-blue bold">3,85</div>
-                <div>€x100km per le tue abitudini</div>
-                <div><i class="fas fa-info-circle text-gray"></i></div>
-            </div>
-            <div class="car-bars row">
-                <div class="car-bar bg-blue flex-1"></div>
-                <div class="car-bar bg-light-gray flex-1"></div>
-                <div class="car-bar bg-light-gray flex-1"></div>
-                <div class="car-bar bg-light-gray flex-1"></div>
-                <div class="car-bar bg-light-gray flex-1"></div>
-                <div class="car-bar bg-light-gray flex-1"></div>
-            </div>
-        </div>
-        <div class="separator"></div>
-        <div class="car-card col gap-4">
-            <div class="car-image flex-1">
-                <img src="./assets/images/car.PNG" alt="" class="w-full">
-            </div>
-            <div class="car-name"><span class="bold">VOLKSWAGEN ECO UP!</span> move 5p.</div>
-            <div class="car-details row gap-4">
-                <div class="col text-gray flex-1">
-                    <p>Tipo: <span class="bold">Berlina</span></p>
-                    <p>Potenza: <span class="bold">150</span>CV | <span class="bold">150</span>kW</p>
-                    <p>Cilindrata: <span class="bold">1395 </span>cm<sup>3</sup></p>
+                <div class="car-miles row gap-2">
+                    <div class="car-miles-number text-blue bold">4,96</div>
+                    <div>€x100km</div>
+                    <div><i class="fas fa-info-circle text-gray"></i></div>
                 </div>
-                <div class="car-button col uppercase bold border-blue">
-                    <div class="text-blue">GPL</div>
+                <div class="car-bars row">
+                    <div class="car-bar bg-blue flex-1"></div>
+                    <div class="car-bar bg-light-gray flex-1"></div>
+                    <div class="car-bar bg-light-gray flex-1"></div>
+                    <div class="car-bar bg-light-gray flex-1"></div>
+                    <div class="car-bar bg-light-gray flex-1"></div>
+                    <div class="car-bar bg-light-gray flex-1"></div>
                 </div>
             </div>
-            <div class="car-miles row gap-2">
-                <div class="car-miles-number text-blue bold">3,85</div>
-                <div>€x100km per le tue abitudini</div>
-                <div><i class="fas fa-info-circle text-gray"></i></div>
-            </div>
-            <div class="car-bars row">
-                <div class="car-bar bg-blue flex-1"></div>
-                <div class="car-bar bg-light-gray flex-1"></div>
-                <div class="car-bar bg-light-gray flex-1"></div>
-                <div class="car-bar bg-light-gray flex-1"></div>
-                <div class="car-bar bg-light-gray flex-1"></div>
-                <div class="car-bar bg-light-gray flex-1"></div>
-            </div>
-        </div>
-        <div class="separator"></div>
-        <div class="car-card col gap-4">
-            <div class="car-image flex-1">
-                <img src="./assets/images/car.PNG" alt="" class="w-full">
-            </div>
-            <div class="car-name"><span class="bold">VOLKSWAGEN ECO UP!</span> move 5p.</div>
-            <div class="car-details row gap-4">
-                <div class="col text-gray flex-1">
-                    <p>Tipo: <span class="bold">Berlina</span></p>
-                    <p>Potenza: <span class="bold">150</span>CV | <span class="bold">150</span>kW</p>
-                    <p>Cilindrata: <span class="bold">1395 </span>cm<sup>3</sup></p>
+            <div class="separator"></div>
+            <div class="car-card col gap-4">
+                <div class="car-image flex-1">
+                    <img src="./assets/images/car3.PNG" alt="" class="w-full">
                 </div>
-                <div class="car-button col uppercase bold border-blue">
-                    <div class="text-blue">GPL</div>
+                <div class="car-name"><span class="bold">HYUNDAY IONIQ</span> ELECTRIC EV 38.3 kWh</div>
+                <div class="car-details row gap-4">
+                    <div class="col text-gray flex-1">
+                        <p>Tipo: <span class="bold">Berlina</span></p>
+                        <p>Potenza: <span class="bold">150</span>CV | <span class="bold">110</span>kW</p>
+                    </div>
+                    <div class="car-button col uppercase bold border-light-blue">
+                        <div class="text-light-blue uppercase">Elettrica</div>
+                    </div>
                 </div>
-            </div>
-            <div class="car-miles row gap-2">
-                <div class="car-miles-number text-blue bold">3,85</div>
-                <div>€x100km per le tue abitudini</div>
-                <div><i class="fas fa-info-circle text-gray"></i></div>
-            </div>
-            <div class="car-bars row">
-                <div class="car-bar bg-blue flex-1"></div>
-                <div class="car-bar bg-light-gray flex-1"></div>
-                <div class="car-bar bg-light-gray flex-1"></div>
-                <div class="car-bar bg-light-gray flex-1"></div>
-                <div class="car-bar bg-light-gray flex-1"></div>
-                <div class="car-bar bg-light-gray flex-1"></div>
-            </div>
-        </div>
-        <div class="separator"></div>
-        <div class="car-card col gap-4">
-            <div class="car-image flex-1">
-                <img src="./assets/images/car6.PNG" alt="" class="w-full">
-            </div>
-            <div class="car-name"><span class="bold">VOLKSWAGEN ECO UP!</span> move 5p.</div>
-            <div class="car-details row gap-4">
-                <div class="col text-gray flex-1">
-                    <p>Tipo: <span class="bold">Berlina</span></p>
-                    <p>Potenza: <span class="bold">150</span>CV | <span class="bold">150</span>kW</p>
-                    <p>Cilindrata: <span class="bold">1395 </span>cm<sup>3</sup></p>
+                <div class="car-miles row gap-2">
+                    <div class="car-miles-number text-light-blue bold">3,40</div>
+                    <div>€x100km - ricarica domestica</div>
+                    <div><i class="fas fa-info-circle text-gray"></i></div>
                 </div>
-                <div class="car-button col uppercase bold border-red">
-                    <div class="text-red">BENZINA</div>
+                <div class="car-bars row">
+                    <div class="car-bar bg-light-blue flex-1"></div>
+                    <div class="car-bar bg-light-gray flex-1"></div>
+                    <div class="car-bar bg-light-gray flex-1"></div>
+                    <div class="car-bar bg-light-gray flex-1"></div>
+                    <div class="car-bar bg-light-gray flex-1"></div>
+                    <div class="car-bar bg-light-gray flex-1"></div>
+                </div>
+                <div class="car-miles row gap-2">
+                    <div class="car-miles-number text-lighter-blue bold">8,54</div>
+                    <div>€x100km - col. cor. continua</div>
+                    <div><i class="fas fa-info-circle text-gray"></i></div>
+                </div>
+                <div class="car-bars row">
+                    <div class="car-bar bg-lighter-blue flex-1"></div>
+                    <div class="car-bar bg-lighter-blue flex-1"></div>
+                    <div class="car-bar bg-light-gray flex-1"></div>
+                    <div class="car-bar bg-light-gray flex-1"></div>
+                    <div class="car-bar bg-light-gray flex-1"></div>
+                    <div class="car-bar bg-light-gray flex-1"></div>
                 </div>
             </div>
-            <div class="car-miles row gap-2">
-                <div class="car-miles-number text-red bold">3,85</div>
-                <div>€x100km per le tue abitudini</div>
-                <div><i class="fas fa-info-circle text-gray"></i></div>
+            <div class="separator"></div>
+            <div class="car-card col gap-4">
+                <div class="car-image flex-1">
+                    <img src="./assets/images/car4.PNG" alt="" class="w-full">
+                </div>
+                <div class="car-name"><span class="bold">TOYOTA PRIUS</span> Plug-in Hybrid</div>
+                <div class="car-details row gap-4">
+                    <div class="col text-gray flex-1">
+                        <p>Tipo: <span class="bold">Berlina</span></p>
+                        <p>Potenza: <span class="bold">150</span>CV | <span class="bold">110</span>kW</p>
+                        <p>Cilindrata: <span class="bold">1395 </span>cm<sup>3</sup></p>
+                    </div>
+                    <div class="car-button col uppercase bold border-green">
+                        <div class="text-green uppercase text-center">plug-in hybrid</div>
+                    </div>
+                </div>
+                <div class="car-miles row gap-2">
+                    <div class="car-miles-number text-green bold">5,11 </div>
+                    <div>€x100km ricarica domestica</div>
+                    <div><i class="fas fa-info-circle text-gray"></i></div>
+                </div>
+                <div class="car-bars row">
+                    <div class="car-bar bg-green flex-1"></div>
+                    <div class="car-bar bg-light-gray flex-1"></div>
+                    <div class="car-bar bg-light-gray flex-1"></div>
+                    <div class="car-bar bg-light-gray flex-1"></div>
+                    <div class="car-bar bg-light-gray flex-1"></div>
+                    <div class="car-bar bg-light-gray flex-1"></div>
+                </div>
+                <div class="car-miles row gap-2">
+                    <div class="car-miles-number text-light-green bold">6,81 </div>
+                    <div>€x100km col cor. alternata</div>
+                    <div><i class="fas fa-info-circle text-gray"></i></div>
+                </div>
+                <div class="car-bars row">
+                    <div class="car-bar bg-light-green flex-1"></div>
+                    <div class="car-bar bg-light-green flex-1"></div>
+                    <div class="car-bar bg-light-gray flex-1"></div>
+                    <div class="car-bar bg-light-gray flex-1"></div>
+                    <div class="car-bar bg-light-gray flex-1"></div>
+                    <div class="car-bar bg-light-gray flex-1"></div>
+                </div>
             </div>
-            <div class="car-bars row">
-                <div class="car-bar bg-red flex-1"></div>
-                <div class="car-bar bg-light-gray flex-1"></div>
-                <div class="car-bar bg-light-gray flex-1"></div>
-                <div class="car-bar bg-light-gray flex-1"></div>
-                <div class="car-bar bg-light-gray flex-1"></div>
-                <div class="car-bar bg-light-gray flex-1"></div>
+            <div class="separator"></div>
+            <div class="car-card col gap-4">
+                <div class="car-image flex-1">
+                    <img src="./assets/images/car5.PNG" alt="" class="w-full">
+                </div>
+                <div class="car-name"><span class="bold">TOYOTA Prius 4ª serie </span> 1.8 AWD Lounge</div>
+                <div class="car-details row gap-4">
+                    <div class="col text-gray flex-1">
+                        <p>Tipo: <span class="bold">Berlina</span></p>
+                        <p>Potenza: <span class="bold">150</span>CV | <span class="bold">110</span>kW</p>
+                        <p>Cilindrata: <span class="bold">1395 </span>cm<sup>3</sup></p>
+                    </div>
+                    <div class="car-button col uppercase bold border-green">
+                        <div class="text-green uppercase">full hybrid</div>
+                    </div>
+                </div>
+                <div class="car-miles row gap-2">
+                    <div class="car-miles-number text-green bold">6,97</div>
+                    <div>€x100km</div>
+                    <div><i class="fas fa-info-circle text-gray"></i></div>
+                </div>
+                <div class="car-bars row">
+                    <div class="car-bar bg-green flex-1"></div>
+                    <div class="car-bar bg-green flex-1"></div>
+                    <div class="car-bar bg-light-gray flex-1"></div>
+                    <div class="car-bar bg-light-gray flex-1"></div>
+                    <div class="car-bar bg-light-gray flex-1"></div>
+                    <div class="car-bar bg-light-gray flex-1"></div>
+                </div>
             </div>
-        </div>
-        <div class="bg-orange medium-padding bold text-white text-center uppercase margin-y-small">carica altre auto</div>
-    </section>
+            <div class="separator"></div>
+            <div class="car-card col gap-4">
+                <div class="car-image flex-1">
+                    <img src="./assets/images/car6.PNG" alt="" class="w-full">
+                </div>
+                <div class="car-name"><span class="bold">VOLKSWAGEN ECO UP!</span> move 5p.</div>
+                <div class="car-details row gap-4">
+                    <div class="col text-gray flex-1">
+                        <p>Tipo: <span class="bold">Berlina</span></p>
+                        <p>Potenza: <span class="bold">150</span>CV | <span class="bold">110</span>kW</p>
+                        <p>Cilindrata: <span class="bold">1395 </span>cm<sup>3</sup></p>
+                    </div>
+                    <div class="car-button col uppercase bold border-red">
+                        <div class="text-red">BENZINA</div>
+                    </div>
+                </div>
+                <div class="car-miles row gap-2">
+                    <div class="car-miles-number text-red bold">3,85</div>
+                    <div>€x100km per le tue abitudini</div>
+                    <div><i class="fas fa-info-circle text-gray"></i></div>
+                </div>
+                <div class="car-bars row">
+                    <div class="car-bar bg-red flex-1"></div>
+                    <div class="car-bar bg-red flex-1"></div>
+                    <div class="car-bar bg-light-gray flex-1"></div>
+                    <div class="car-bar bg-light-gray flex-1"></div>
+                    <div class="car-bar bg-light-gray flex-1"></div>
+                    <div class="car-bar bg-light-gray flex-1"></div>
+                </div>
+            </div>
+            <div class="bg-orange medium-padding bold text-white text-center uppercase margin-y-small">carica altre auto</div>
+        </section>
+    </body>
     <footer>
         <div class="footer col gap-4 text-white">
             <div class="uppercase big-text bold">QUATTRORUOTE</div>
@@ -299,5 +313,4 @@
         </div>
     </div>
 
-</body>
 </html>

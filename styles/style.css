@@ -14,12 +14,12 @@ body {
 :root {
 	--orange: rgba(255, 93, 39, 1);
 	--yellow: rgba(255, 195, 31, 1);
-	--lightBlue: rgba(62, 151, 255, 1);
-	--green: rgba(38, 190, 10, 1);
+	--lightBlue: rgba(0, 158, 227, 1);
+	--green: rgba(0, 153, 51, 1);
 	--gray: rgba(112, 112, 112, 1);
 	--white: white;
 	--blue: rgba(0, 89, 153, 1);
-	--lighterBlue: rgba(0, 158, 227, 1);
+	--lighterBlue: rgba(149, 207, 237, 1);
 	--lightGreen: rgba(136, 179, 26, 1);
 	--red: rgba(226, 0, 0, 1);
 	--lightgray: rgba(238,238,238,1);
@@ -80,11 +80,17 @@ body {
 .text-green{
     color: var(--green);
 }
+.text-light-green{
+	color: var(--lightGreen);
+}
 .text-blue{
     color: var(--blue);
 }
 .text-light-blue{
     color: var(--lightBlue);
+}
+.text-lighter-blue{
+    color: var(--lighterBlue);
 }
 .uppercase{
     text-transform: uppercase;
@@ -107,8 +113,14 @@ body {
 .bg-light-blue{
     background-color: var(--lightBlue);
 }
+.bg-lighter-blue{
+    background-color: var(--lighterBlue);
+}
 .bg-green{
     background-color: var(--green);
+}
+.bg-light-green{
+	background-color: var(--lightGreen);
 }
 .bg-red{
     background-color: var(--red);
@@ -191,6 +203,8 @@ header{
 .first span, .second span, .third span{
     font-size: 0.8rem;
     color: var(--gray);
+	font-weight: bold;
+	
 }
 .info-row{
     justify-content: space-between;
