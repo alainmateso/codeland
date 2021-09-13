@@ -193,7 +193,7 @@ body {
     font-size: 1rem;
 }
 .first span, .second span, .third span{
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: var(--gray);
 }
 .info-row{
@@ -258,4 +258,12 @@ footer .footer{
 }
 footer i{
 	font-size: 1.5rem;
+}
+.filters{
+	padding: 1.2rem 1rem;
+	font-size: 2rem;
+	align-items: center;
+}
+.filters i{
+	font-size: 1.6rem;
 }
