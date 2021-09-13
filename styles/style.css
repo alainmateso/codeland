@@ -22,21 +22,21 @@ body {
 	--lighterBlue: rgba(149, 207, 237, 1);
 	--lightGreen: rgba(136, 179, 26, 1);
 	--red: rgba(226, 0, 0, 1);
-	--lightgray: rgba(238,238,238,1);
+	--lightgray: rgba(238, 238, 238, 1);
 	--footer-color: rgba(51, 51, 51, 1);
 }
 
-.small-padding{
-    padding: 0.5rem;
+.small-padding {
+	padding: 0.5rem;
 }
-.medium-padding{
+.medium-padding {
 	padding: 1rem;
 }
-.margin-y-small{
+.margin-y-small {
 	margin: 1rem 0;
 }
-.grid{
-    display: grid;
+.grid {
+	display: grid;
 }
 .col {
 	display: flex;
@@ -59,76 +59,76 @@ body {
 .w-full {
 	width: 100%;
 }
-.bg-white{
-    background-color: var(--white);
+.bg-white {
+	background-color: var(--white);
 }
-.text-white{
+.text-white {
 	color: var(--white);
 }
-.text-red{
+.text-red {
 	color: var(--red);
 }
-.text-gray{
-    color: var(--gray);
+.text-gray {
+	color: var(--gray);
 }
-.text-light-gray{
-    color: var(--lightgray);
+.text-light-gray {
+	color: var(--lightgray);
 }
-.text-yellow{
-    color: var(--yellow);
+.text-yellow {
+	color: var(--yellow);
 }
-.text-green{
-    color: var(--green);
+.text-green {
+	color: var(--green);
 }
-.text-light-green{
+.text-light-green {
 	color: var(--lightGreen);
 }
-.text-blue{
-    color: var(--blue);
+.text-blue {
+	color: var(--blue);
 }
-.text-light-blue{
-    color: var(--lightBlue);
+.text-light-blue {
+	color: var(--lightBlue);
 }
-.text-lighter-blue{
-    color: var(--lighterBlue);
+.text-lighter-blue {
+	color: var(--lighterBlue);
 }
-.text-orange{
+.text-orange {
 	color: var(--orange);
 }
-.uppercase{
-    text-transform: uppercase;
+.uppercase {
+	text-transform: uppercase;
 }
-.big-text{
+.big-text {
 	font-size: 1.5rem;
 }
-.bg-gray{
-    background-color: var(--gray);
+.bg-gray {
+	background-color: var(--gray);
 }
-.bg-light-gray{
+.bg-light-gray {
 	background-color: var(--lightgray);
 }
-.bg-yellow{
-    background-color: var(--yellow);
+.bg-yellow {
+	background-color: var(--yellow);
 }
-.bg-blue{
-    background-color: var(--blue);
+.bg-blue {
+	background-color: var(--blue);
 }
-.bg-light-blue{
-    background-color: var(--lightBlue);
+.bg-light-blue {
+	background-color: var(--lightBlue);
 }
-.bg-lighter-blue{
-    background-color: var(--lighterBlue);
+.bg-lighter-blue {
+	background-color: var(--lighterBlue);
 }
-.bg-green{
-    background-color: var(--green);
+.bg-green {
+	background-color: var(--green);
 }
-.bg-light-green{
+.bg-light-green {
 	background-color: var(--lightGreen);
 }
-.bg-red{
-    background-color: var(--red);
+.bg-red {
+	background-color: var(--red);
 }
-.bg-orange{
+.bg-orange {
 	background-color: var(--orange);
 }
 .flex-1 {
@@ -138,7 +138,7 @@ body {
 .bold {
 	font-weight: bold;
 }
-header{
+header {
 	position: fixed;
 	left: 0;
 	right: 0;
@@ -155,7 +155,7 @@ header{
 .orange-text {
 	color: var(--orange);
 }
-.logo img{
+.logo img {
 	height: 3.5rem;
 }
 .sub-header {
@@ -181,96 +181,100 @@ header{
 	line-height: 0.8;
 	padding: 0.8rem 0;
 }
-.middle-section, .cars-section {
+.middle-section,
+.cars-section {
 	padding: 1rem;
 }
 
-.text-center{
-    text-align: center;
+.text-center {
+	text-align: center;
 }
-.rounded-small{
-    border-radius: 0.5rem;
+.rounded-small {
+	border-radius: 0.5rem;
 }
-.top-card{
-    padding: 0.5rem;
-    align-items: center;
-    justify-content: center;
-    font-size: 2rem;
+.top-card {
+	padding: 0.5rem;
+	align-items: center;
+	justify-content: center;
+	font-size: 2rem;
 }
-.first sup, .second sup, .third sup{
-    color: var(--gray);
-    font-weight:200;
-    font-size: 1rem;
+.first sup,
+.second sup,
+.third sup {
+	color: var(--gray);
+	font-weight: 200;
+	font-size: 1rem;
 }
-.first span, .second span, .third span{
-    font-size: 0.8rem;
-    color: var(--gray);
+.first span,
+.second span,
+.third span {
+	font-size: 0.8rem;
+	color: var(--gray);
 	font-weight: bold;
-	
 }
-.info-row{
-    align-items: center;
+.info-row {
+	align-items: center;
 }
-.info-row select{
-    border: none;
-    padding: 0.7rem;
-    border-radius: 0.5rem;
+.info-row select {
+	border: none;
+	padding: 0.7rem;
+	border-radius: 0.5rem;
 }
 
-.icon-holder{
-    border-radius: 50%;
+.icon-holder {
+	border-radius: 50%;
 	padding: 0.7rem;
 }
-.separator{
+.separator {
 	border-bottom: 3px solid var(--lightgray);
 }
-img{
+img {
 	max-width: 100%;
 }
-.car-name{
+.car-name {
 	font-size: 1.7rem;
 }
-.car-button{
+.car-button {
 	border: 1px solid;
 	padding: 1rem 1.5rem;
 	height: max-content;
 	width: 30%;
 	align-items: center;
 }
-.border-blue{
+.border-blue {
 	border-color: var(--blue);
 }
-.border-light-blue{
+.border-light-blue {
 	border-color: var(--lightBlue);
 }
-.border-green{
+.border-green {
 	border-color: var(--green);
 }
-.border-red{
+.border-red {
 	border-color: var(--red);
 }
-.car-miles{
+.car-miles {
 	align-items: flex-end;
 }
-.car-miles-number{
+.car-miles-number {
 	font-size: 2rem;
 }
-.car-bars{
-	gap: .2rem;
+.car-bars {
+	gap: 0.2rem;
 }
-.car-bar{
-	padding: 0.3rem;
+.car-bar {
+	height: 0.5rem;
 }
-footer .footer{
+footer .footer {
 	background-color: var(--footer-color);
 	align-items: center;
 	padding: 3rem 1rem;
 	margin: 0 0 4rem 0;
 }
-footer i{
+footer i {
 	font-size: 1.5rem;
 }
-.filters{
+.filters {
 	padding: 1.2rem 1rem;
 	font-size: 2rem;
 	align-items: center;
@@ -279,14 +283,14 @@ footer i{
 	left: 0;
 	right: 0;
 }
-.filters i{
+.filters i {
 	font-size: 1.6rem;
 }
-.space-between{
+.space-between {
 	justify-content: space-between;
 }
-.auto-filters{
-	display: flex;
+.auto-filters {
+	display: none;
 	height: 100%;
 	width: 100%;
 	position: fixed;
@@ -297,33 +301,37 @@ footer i{
 	overflow-y: auto;
 	background-color: var(--white);
 }
-.mobile-menu{
+.mobile-menu {
 	padding: 1rem;
 	margin: 0 0 5rem 0;
 }
-.mobile-menu-header{
+.mobile-menu-header {
 	font-size: 3rem;
 	position: relative;
 }
-.close-button{
+.close-button {
 	position: fixed;
 	top: 1rem;
 	right: 1rem;
 }
-.filter-title{
+.filter-title {
 	align-items: center;
 }
-.filter-title i{
+.filter-title i {
 	font-size: 2rem;
 }
-.check{
+.check {
 	align-items: center;
 	font-size: 1.2rem;
 }
-.check [type="checkbox"]{
+.check [type="checkbox"] {
 	height: 1.5rem;
 	width: 1.5rem;
 }
-.menu-footer{
+.menu-footer {
 	padding: 0.2rem 0.5rem;
+}
+.small-bg {
+	width: 20%;
+	height: 100%;
 }
