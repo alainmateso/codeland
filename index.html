@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
 </head>
     <header>
-        <div class="row header bg-white">
+        <div class="row header bg-white space-between">
             <div class="row gap-2">
                 <div class="logo">
                     <img src="./assets//images/logo.PNG" alt="">
@@ -63,7 +63,7 @@
             </div>
         </section>
         <section class="col cars-section bg-white gap-4">
-            <div class="info-row row">
+            <div class="info-row row space-between">
                 <div class="row gap-2">
                     <div class="icon-holder bg-light-gray">
                     <i class="fas fa-external-link-alt text-gray"></i>
@@ -95,7 +95,7 @@
                         <div class="text-blue uppercase">GPL</div>
                     </div>
                 </div>
-                <div class="car-miles row gap-2">
+                <div class="car-miles row gap-2 space-between">
                     <div class="car-miles-number text-blue bold">3,85</div>
                     <div>€x100km per le tue abitudini</div>
                     <div><i class="fas fa-info-circle text-gray"></i></div>
@@ -125,7 +125,7 @@
                         <div class="text-blue uppercase">GPL</div>
                     </div>
                 </div>
-                <div class="car-miles row gap-2">
+                <div class="car-miles row gap-2 space-between">
                     <div class="car-miles-number text-blue bold">4,96</div>
                     <div>€x100km</div>
                     <div><i class="fas fa-info-circle text-gray"></i></div>
@@ -154,7 +154,7 @@
                         <div class="text-light-blue uppercase">Elettrica</div>
                     </div>
                 </div>
-                <div class="car-miles row gap-2">
+                <div class="car-miles row gap-2 space-between">
                     <div class="car-miles-number text-light-blue bold">3,40</div>
                     <div>€x100km - ricarica domestica</div>
                     <div><i class="fas fa-info-circle text-gray"></i></div>
@@ -167,7 +167,7 @@
                     <div class="car-bar bg-light-gray flex-1"></div>
                     <div class="car-bar bg-light-gray flex-1"></div>
                 </div>
-                <div class="car-miles row gap-2">
+                <div class="car-miles row gap-2 space-between">
                     <div class="car-miles-number text-lighter-blue bold">8,54</div>
                     <div>€x100km - col. cor. continua</div>
                     <div><i class="fas fa-info-circle text-gray"></i></div>
@@ -197,7 +197,7 @@
                         <div class="text-green uppercase text-center">plug-in hybrid</div>
                     </div>
                 </div>
-                <div class="car-miles row gap-2">
+                <div class="car-miles row gap-2 space-between">
                     <div class="car-miles-number text-green bold">5,11 </div>
                     <div>€x100km ricarica domestica</div>
                     <div><i class="fas fa-info-circle text-gray"></i></div>
@@ -210,7 +210,7 @@
                     <div class="car-bar bg-light-gray flex-1"></div>
                     <div class="car-bar bg-light-gray flex-1"></div>
                 </div>
-                <div class="car-miles row gap-2">
+                <div class="car-miles row gap-2 space-between">
                     <div class="car-miles-number text-light-green bold">6,81 </div>
                     <div>€x100km col cor. alternata</div>
                     <div><i class="fas fa-info-circle text-gray"></i></div>
@@ -240,7 +240,7 @@
                         <div class="text-green uppercase">full hybrid</div>
                     </div>
                 </div>
-                <div class="car-miles row gap-2">
+                <div class="car-miles row gap-2 space-between">
                     <div class="car-miles-number text-green bold">6,97</div>
                     <div>€x100km</div>
                     <div><i class="fas fa-info-circle text-gray"></i></div>
@@ -270,7 +270,7 @@
                         <div class="text-red">BENZINA</div>
                     </div>
                 </div>
-                <div class="car-miles row gap-2">
+                <div class="car-miles row gap-2 space-between">
                     <div class="car-miles-number text-red bold">3,85</div>
                     <div>€x100km per le tue abitudini</div>
                     <div><i class="fas fa-info-circle text-gray"></i></div>
@@ -307,10 +307,204 @@
         </div>
     </footer>
     <div class="filters row bg-orange flex-1 text-white">
-        <i class="fas fa-sliders-h"></i>
+        <i class="fas fa-sliders-h" onclick="openMenu()"></i>
         <div class="text-center bold w-full">
             Filtra auto
         </div>
     </div>
-
+    <div class="auto-filters col">
+        <div class="mobile-menu">
+            <div class="row gap-4 mobile-menu-header space-between bg-white">
+                <div class="bold">Filtra auto</div>
+                <div class="close-button" onclick="closeMenu()"><i class="fas fa-times-circle text-orange"></i></div>
+            </div>
+            <hr class="margin-y-small">
+            <div class="col">
+                <div class="filter-title row gap-4 big-text bold space-between">
+                    <div class="text-orange uppercase">fascia di costo 100 km</div>
+                    <i class="fas fa-angle-down text-gray fa-2x"></i>
+                </div>
+                <div class="margin-y-small">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, non commodi placeat corrupti amet temporibus delectus error quos nesciunt eaque ducimus veniam rem reiciendis incidunt facilis eos! Dolor, quisquam quae.
+                </div>
+            </div>
+            <hr class="margin-y-small">
+            <div class="col">
+                <div class="filter-title row gap-4 big-text bold space-between">
+                    <div class="text-orange uppercase">Alimentazione</div>
+                    <i class="fas fa-angle-down text-gray fa-2x"></i>
+                </div>
+                <div class="margin-y-small col gap-4">
+                    <div class="check row gap-4">
+                        <input type="checkbox">
+                        <label for="vehicle1">Benzina <span class="text-red">(123)</span></label><br>
+                    </div>
+                    <div class="check row gap-4">
+                        <input type="checkbox">
+                        <label for="vehicle1">Gasolio <span class="text-gray">(71)</span></label><br>
+                    </div>
+                    <div class="check row gap-4">
+                        <input type="checkbox">
+                        <label for="vehicle1">Mild Hybrid Benzina <span class="text-green">(21)</span></label><br>
+                    </div>
+                    <div class="check row gap-4">
+                        <input type="checkbox">
+                        <label for="vehicle1">Mild Hybrid Diesel <span class="text-green">(5)</span></label><br>
+                    </div>
+                    <div class="check row gap-4">
+                        <input type="checkbox">
+                        <label for="vehicle1">Elettrica <span class="">(34)</span></label><br>
+                    </div>
+                    <div class="check row gap-4">
+                        <input type="checkbox">
+                        <label for="vehicle1">GPL <span class="">(6)</span></label><br>
+                    </div>
+                    <div class="check row gap-4">
+                        <input type="checkbox">
+                        <label for="vehicle1">Metano <span class="">(6)</span></label><br>
+                    </div>
+                </div>
+            </div>
+            <hr class="margin-y-small">
+            <div class="col">
+                <div class="filter-title row gap-4 big-text bold space-between">
+                    <div class="text-orange uppercase">tipo auto</div>
+                    <i class="fas fa-angle-down text-gray fa-2x"></i>
+                </div>
+                <div class="row gap-4 space-between margin-y-small">
+                    <div class="col gap-4 flex-1">
+                        <div class="check row gap-4">
+                            <input type="checkbox">
+                            <label for="vehicle1">Tutte</label><br>
+                        </div>
+                        <div class="check row gap-4">
+                            <input type="checkbox">
+                            <label for="vehicle1">Coupe</label><br>
+                        </div>
+                        <div class="check row gap-4">
+                            <input type="checkbox">
+                            <label for="vehicle1">Coupe</label><br>
+                        </div>
+                        <div class="check row gap-4">
+                            <input type="checkbox">
+                            <label for="vehicle1">Coupe</label><br>
+                        </div>
+                    </div>
+                    <div class="col gap-4 flex-1">
+                        <div class="check row gap-4">
+                            <input type="checkbox">
+                            <label for="vehicle1">Tutte</label><br>
+                        </div>
+                        <div class="check row gap-4">
+                            <input type="checkbox">
+                            <label for="vehicle1">Coupe</label><br>
+                        </div>
+                        <div class="check row gap-4">
+                            <input type="checkbox">
+                            <label for="vehicle1">Coupe</label><br>
+                        </div>
+                        <div class="check row gap-4">
+                            <input type="checkbox">
+                            <label for="vehicle1">Coupe</label><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="margin-y-small">
+            <div class="col">
+                <div class="filter-title row gap-4 big-text bold space-between">
+                    <div class="text-orange uppercase">marca</div>
+                    <i class="fas fa-angle-down text-gray fa-2x"></i>
+                </div>
+                <div class="row gap-4 space-between margin-y-small">
+                    <div class="col gap-4 flex-1">
+                        <div class="check row gap-4">
+                            <input type="checkbox">
+                            <label for="vehicle1">Tutte</label><br>
+                        </div>
+                        <div class="check row gap-4">
+                            <input type="checkbox">
+                            <label for="vehicle1">Coupe</label><br>
+                        </div>
+                        <div class="check row gap-4">
+                            <input type="checkbox">
+                            <label for="vehicle1">Coupe</label><br>
+                        </div>
+                        <div class="check row gap-4">
+                            <input type="checkbox">
+                            <label for="vehicle1">Coupe</label><br>
+                        </div>
+                        <div class="check row gap-4">
+                            <input type="checkbox">
+                            <label for="vehicle1">Tutte</label><br>
+                        </div>
+                        <div class="check row gap-4">
+                            <input type="checkbox">
+                            <label for="vehicle1">Coupe</label><br>
+                        </div>
+                        <div class="check row gap-4">
+                            <input type="checkbox">
+                            <label for="vehicle1">Coupe</label><br>
+                        </div>
+                        <div class="check row gap-4">
+                            <input type="checkbox">
+                            <label for="vehicle1">Coupe</label><br>
+                        </div>
+                    </div>
+                    <div class="col gap-4 flex-1">
+                        <div class="check row gap-4">
+                            <input type="checkbox">
+                            <label for="vehicle1">Tutte</label><br>
+                        </div>
+                        <div class="check row gap-4">
+                            <input type="checkbox">
+                            <label for="vehicle1">Coupe</label><br>
+                        </div>
+                        <div class="check row gap-4">
+                            <input type="checkbox">
+                            <label for="vehicle1">Coupe</label><br>
+                        </div>
+                        <div class="check row gap-4">
+                            <input type="checkbox">
+                            <label for="vehicle1">Coupe</label><br>
+                        </div>
+                        <div class="check row gap-4">
+                            <input type="checkbox">
+                            <label for="vehicle1">Tutte</label><br>
+                        </div>
+                        <div class="check row gap-4">
+                            <input type="checkbox">
+                            <label for="vehicle1">Coupe</label><br>
+                        </div>
+                        <div class="check row gap-4">
+                            <input type="checkbox">
+                            <label for="vehicle1">Coupe</label><br>
+                        </div>
+                        <div class="check row gap-4">
+                            <input type="checkbox">
+                            <label for="vehicle1">Coupe</label><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="margin-y-small">
+        </div>
+        <div class="filters menu-footer col bg-orange flex-1 text-white">
+            <div class="text-center bold w-full">
+                88 auto
+            </div>
+            <div class="big-text">Vai alla lista</div>
+        </div>
+    </div>
 </html>
+
+<script>
+    const openMenu = () => {
+        const menu = document.querySelector(".auto-filters")
+        menu.style.display = "flex";
+    }
+    const closeMenu = () => {
+        const menu = document.querySelector(".auto-filters")
+        menu.style.display = "none";
+    }
+</script>

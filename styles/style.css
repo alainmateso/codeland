@@ -92,6 +92,9 @@ body {
 .text-lighter-blue{
     color: var(--lighterBlue);
 }
+.text-orange{
+	color: var(--orange);
+}
 .uppercase{
     text-transform: uppercase;
 }
@@ -143,7 +146,6 @@ header{
 }
 .header {
 	align-items: center;
-	justify-content: space-between;
 	padding: 0.5rem 1rem;
 	box-shadow: 0px 2px 20px -1px gray;
 }
@@ -207,7 +209,6 @@ header{
 	
 }
 .info-row{
-    justify-content: space-between;
     align-items: center;
 }
 .info-row select{
@@ -250,7 +251,6 @@ img{
 }
 .car-miles{
 	align-items: flex-end;
-	justify-content: space-between;
 }
 .car-miles-number{
 	font-size: 2rem;
@@ -281,4 +281,49 @@ footer i{
 }
 .filters i{
 	font-size: 1.6rem;
+}
+.space-between{
+	justify-content: space-between;
+}
+.auto-filters{
+	display: flex;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	overflow-y: auto;
+	background-color: var(--white);
+}
+.mobile-menu{
+	padding: 1rem;
+	margin: 0 0 5rem 0;
+}
+.mobile-menu-header{
+	font-size: 3rem;
+	position: relative;
+}
+.close-button{
+	position: fixed;
+	top: 1rem;
+	right: 1rem;
+}
+.filter-title{
+	align-items: center;
+}
+.filter-title i{
+	font-size: 2rem;
+}
+.check{
+	align-items: center;
+	font-size: 1.2rem;
+}
+.check [type="checkbox"]{
+	height: 1.5rem;
+	width: 1.5rem;
+}
+.menu-footer{
+	padding: 0.2rem 0.5rem;
 }
