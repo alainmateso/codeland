@@ -343,3 +343,18 @@ footer i {
 	left: 0;
 	right: 0;
 }
+.slider {
+	-webkit-appearance: none;
+	height: .3rem;
+	background: var(--lightgray);
+  }
+  
+  .slider::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 1.5rem;
+	height: 1.5rem;
+	border-radius: 50%;
+	border: 2px solid var(--white);
+	background:var(--orange);
+  }
