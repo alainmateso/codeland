@@ -24,6 +24,7 @@ body {
 	--red: rgba(226, 0, 0, 1);
 	--lightgray: rgba(238, 238, 238, 1);
 	--footer-color: rgba(51, 51, 51, 1);
+	--another-gray: rgba(204, 204, 204, 1);
 }
 
 .small-padding {
@@ -73,6 +74,9 @@ body {
 }
 .text-light-gray {
 	color: var(--lightgray);
+}
+.text-another-gray {
+	color: var(--another-gray);
 }
 .text-yellow {
 	color: var(--yellow);
@@ -247,6 +251,9 @@ img {
 .border-light-blue {
 	border-color: var(--lightBlue);
 }
+.border-gray {
+	border-color: var(--gray);
+}
 .border-green {
 	border-color: var(--green);
 }
@@ -289,7 +296,8 @@ footer i {
 .space-between {
 	justify-content: space-between;
 }
-.auto-filters {
+.auto-filters,
+.cambia-modal {
 	display: none;
 	height: 100%;
 	width: 100%;
@@ -311,7 +319,7 @@ footer i {
 }
 .close-button {
 	position: fixed;
-	top: 1rem;
+	top: 0.5rem;
 	right: 1rem;
 }
 .filter-title {
@@ -343,18 +351,62 @@ footer i {
 	left: 0;
 	right: 0;
 }
+.small-orange-line {
+	padding: 0.03rem;
+	max-width: 23%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+}
 .slider {
 	-webkit-appearance: none;
-	height: .3rem;
+	height: 0.3rem;
 	background: var(--lightgray);
-  }
-  
-  .slider::-webkit-slider-thumb {
+}
+
+.slider::-webkit-slider-thumb {
 	-webkit-appearance: none;
 	appearance: none;
 	width: 1.5rem;
 	height: 1.5rem;
 	border-radius: 50%;
 	border: 2px solid var(--white);
-	background:var(--orange);
-  }
+	background: var(--orange);
+}
+.cambia-modal {
+	background: linear-gradient(to bottom, var(--lightgray) 55%, var(--white) 50%);
+}
+.mobile-header{
+	padding: 0.2rem 1rem;
+}
+.relative {
+	position: relative;
+}
+.color-bars {
+	margin: 0 1rem 4rem 1rem;
+}
+.up-marker {
+	position: absolute;
+	top: -2.55rem;
+	right: -0.95rem;
+	font-size: 1.3rem;
+}
+.down-marker {
+	position: absolute;
+	transform: rotate(180deg);
+	bottom: -2.6rem;
+	left: -0.94rem;
+	font-size: 1.3rem;
+}
+.ricalcola {
+	margin: 1rem 0;
+	border: 1px solid var(--another-gray);
+	padding: 0.7rem;
+}
+.gray-ish-bg{
+	margin: 1rem .5rem 0 .5rem;
+	padding: 3rem 0 4rem 0;
+	background-color: rgba(0, 0, 0, 0.16);
+	border-radius: 1rem;
+}
