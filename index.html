@@ -334,7 +334,7 @@
         </div>
     </footer>
     <div class="filters row bg-orange flex-1 text-white">
-        <i class="fas fa-sliders-h" onclick="openMenu()"></i>
+        <i class="fas fa-sliders-h" onclick="openModal(`auto-filters`)"></i>
         <div class="text-center bold w-full">
             Filtra auto
         </div>
@@ -343,7 +343,7 @@
         <div class="mobile-menu">
             <div class="row gap-4 mobile-menu-header space-between bg-white">
                 <div class="bold">Filtra auto</div>
-                <div class="close-button" onclick="closeMenu()"><i class="fas fa-times-circle text-orange"></i></div>
+                <div class="close-button" onclick="closeModal(`auto-filters`)"><i class="fas fa-times-circle text-orange"></i></div>
             </div>
             <hr class="margin-y-small">
             <div class="col">
@@ -528,12 +528,12 @@
 </html>
 
 <script>
-    const openMenu = () => {
-        const menu = document.querySelector(".auto-filters")
+    const openModal = (element) => {
+        const menu = document.querySelector(`.${element}`)
         menu.style.display = "flex";
     }
-    const closeMenu = () => {
-        const menu = document.querySelector(".auto-filters")
+    const closeModal = (element) => {
+        const menu = document.querySelector(`.${element}`)
         menu.style.display = "none";
     }
 </script>
