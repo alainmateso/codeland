@@ -60,6 +60,9 @@ body {
 .w-full {
 	width: 100%;
 }
+.h-full{
+	height: 100%;
+}
 .bg-white {
 	background-color: var(--white);
 }
@@ -110,6 +113,9 @@ body {
 }
 .bg-light-gray {
 	background-color: var(--lightgray);
+}
+.bg-another-gray {
+	background-color: var(--another-gray);
 }
 .bg-yellow {
 	background-color: var(--yellow);
@@ -192,6 +198,9 @@ header {
 
 .text-center {
 	text-align: center;
+}
+.align-center{
+	align-items: center;
 }
 .rounded-small {
 	border-radius: 0.5rem;
@@ -299,7 +308,7 @@ footer i {
 .auto-filters,
 .cambia-modal,
 .car-modal {
-	display: flex;
+	display: none;
 	height: 100%;
 	width: 100%;
 	position: fixed;
