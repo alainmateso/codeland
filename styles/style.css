@@ -239,7 +239,7 @@ header {
 	padding: 0.7rem;
 }
 .separator {
-	border-bottom: 3px solid var(--lightgray);
+	border-bottom: 2.5px solid var(--lightgray);
 }
 img {
 	max-width: 100%;
@@ -413,10 +413,24 @@ footer i {
 	margin: 1rem 0;
 	border: 1px solid var(--another-gray);
 	padding: 0.7rem;
+	z-index: 5;
 }
 .gray-ish-bg{
 	margin: 1rem .5rem 0 .5rem;
 	padding: 3rem 0 4rem 0;
+	border-radius: 0.5rem;
+	
+}
+.inverse-gray-area{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
 	background-color: rgba(0, 0, 0, 0.16);
-	border-radius: 1rem;
+	background-blend-mode: screen;
+	mix-blend-mode: normal;
+	filter: blur(0.5rem);
+	z-index: -1;
+	border-radius: inherit;
+
 }
